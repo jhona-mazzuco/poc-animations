@@ -1,0 +1,27 @@
+@import "src/assets/styles/colors";
+
+.container {
+  border: 2px solid $border-color;
+  border-radius: 100%;
+  box-shadow: inset 0px -1px 4px rgb(0, 0, 0, 0.5), 0 0 4px $border-color;
+  background: #dde0dd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 2px solid $border-color;
+  box-shadow: 1px 1px 4px $border-color;
+}
+
+.light {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
